@@ -1,16 +1,11 @@
 {
   "name": "concise-test",
-  "type": "module",
-  "bin": "./src/cli",
   "version": "1.0.0",
   "description": "",
-
+  "type": "module",
+  "bin": "./src/cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-
-  "exports": {
-    ".": "./src/runner.js"
   },
   "author": "Pradhumna Pancholi",
   "license": "ISC"
